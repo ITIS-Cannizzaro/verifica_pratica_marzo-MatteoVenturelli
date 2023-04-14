@@ -87,7 +87,7 @@ public class Venturelli
 
 			
 			else if(parolaIns.equals(parole[3]) || parolaIns.equals(parole[4]))
-				System.out.println("Corretto!");	
+				System.out.println("Corretto!");// nel caso in cui la parola è corretta bisogna uscire dal ciclo!	
 			
 			else
 				System.out.println("Tentativi rimasti: " + --tentativi);	
@@ -229,7 +229,7 @@ public class Venturelli
 		System.out.println("Divisibili per 8: " + div8);
 		System.out.println("Divisibili per 9: " + div9);
 		System.out.println("Divisibili per 10: " + div10);
-	}
+	}// Colucci: in questo caso con le conoscenze che hai potevi sicuramente trovare una soluzione migliore
 	
 	
 	
@@ -244,3 +244,4 @@ public class Venturelli
 		v[b] = temp;
 	}
 }
+// Colucci: Ottima prova!
